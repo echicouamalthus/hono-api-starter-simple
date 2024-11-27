@@ -1,7 +1,7 @@
 Copy repository with for start your new project with hono configure with vercel
 
 ```sh
-bunx degit vercel/hono--api-starter-simple my-project && cd my-project
+bunx degit vercel/hono-api-starter-simple my-project && cd my-project
 ```
 
 To install dependencies:
