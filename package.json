@@ -5,6 +5,14 @@
     "buid": "tsc",
     "deploy": "vercel"
   },
+  "author": {
+    "name": "Echicoua Elie Malthus"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echicouamalthus/hono-api-starter-simple.git"
+  },
   "dependencies": {
     "@hono/node-server": "^1.13.7",
     "hono": "^4.6.12",
