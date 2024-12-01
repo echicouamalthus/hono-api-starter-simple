@@ -5,7 +5,8 @@
     "image": "docker build -t hono-bun-app .",
     "image:start": "docker run -p 9999:9999 hono-bun-app",
     "build": "tsc",
-    "deploy": "vercel"
+    "deploy": "vercel",
+    "vercel-build": "echo hello"
   },
   "author": {
     "name": "Echicoua Elie Malthus"
