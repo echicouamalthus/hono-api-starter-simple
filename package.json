@@ -2,7 +2,9 @@
   "name": "hono-api-starter-simple",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
-    "buid": "tsc",
+    "image": "docker build -t hono-bun-app .",
+    "image:start": "docker run -p 9999:9999 hono-bun-app",
+    "build": "tsc",
     "deploy": "vercel"
   },
   "author": {
