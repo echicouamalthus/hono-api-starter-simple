@@ -5,7 +5,7 @@ bunx degit vercel/hono-api-starter-simple my-project && cd my-project
 ```
 
 fix copy with degit, so
-``sh
+``
 bunx bunx degit https://github.com/echicouamalthus/hono-api-starter-simple.git --force my-project
 ``
 
